@@ -1,194 +1,309 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
-  
-<!-- Mirrored from fanfamousity.com/vote-2/fashion-group--dIjo1IWPff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 21:13:21 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="vote2.css" />
-    <title>The People's Pick: Online Voting Spectacle</title>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  <!-- <meta name="titimg" content="images\IMG-20231025-WA0086.jpg" >  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta property="og:image" itemprop="image" content="images\IMG-20231025-WA0086.jpg">
+  <meta property="og:type" content="website"/> 
+  <meta property="og:image:type" content="image/png"> -->
+  <title>Voting </title>
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCb7bLX6H2SN7FytkuJkdnHf3DlBAWH8nVq9p6E1kGgw&s"
+    type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-body {
-    font-family: "Poppins", sans-serif;
-}
-
-strong {
-    color: #112351;
-}
-
-nav {
-    height: 4em;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-}
-
-nav .logo {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #112351;
-}
-
-.container {
-    max-width: 700px;
-    margin: 2em auto;
-}
-
-.vote-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.bio-wrap {
-    display: flex;
-}
-
-.profile {
-    width: 50%;
-}
-
-.profile img {
-    width: 10em;
-    height: 10em;
-    aspect-ratio: 1/2;
-    object-fit: cover;
-    border: 2px solid #112351;
-    border-radius: 10px;
-}
-
-.profile .bio {
-    margin-left: 10px;
-    height: 10em;
-}
-
-.profile .bio a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 1em;
-    padding: .4em .5em;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #112351;
-}
-
-.profile .bio img {
-    width: 2.5em;
-    height: 2.5em;
-    margin-left: .5em;
-    background-color: #fff;
-}
-
-.participants h4 {
-    margin-bottom: 1em;
-    color: #112351;
-}
-
-.participants .contestant {
-    background-color: rgb(248, 248, 248);
-    padding: .5em;
-    margin-bottom: 1em;
-    font-size: .9em;
-    font-weight: 400;
-}
-
-.participants .contestant:nth-child(5) {
-    background-color: #112351;
-    color: #fff;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 1024px) {
-    .container {
-        max-width: 700px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 640px;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
     }
 
-    .vote-container {
-        flex-direction: column;
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #FFFDD0;
     }
 
-    .profile {
-        width: 100%;
-        margin-bottom: 2em;
+    ::selection {
+      color: #fff;
+      background: #6665ee;
     }
 
-}
-
-@media screen and (max-width: 640px) {
-    .container {
-        max-width: 90%;
+    .wrapper {
+      background: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     }
-}
-    </style>
-  </head>
-  <body>
-    <nav>
-      <div class="logo">The People's Pick</div>
-    </nav>
-    <div class="container">
-      <div class="vote-container">
-        <div class="profile">
-          <div class="bio-wrap">
-            <img src="https://i.postimg.cc/kXS05tY3/IMG-3392.jpg" alt="" />
-            <div class="bio">
-              <div>Name: <strong>Fashion group</strong></div>
-              <div>Total Votes: <strong>119</strong></div>
-              <div>Position: <strong>4</strong></div>
-              <div>Votes left to qualify: <strong>6</strong></div>
-              
-              <a class="instagram" href="ig.html" target="_blank"
-                >Vote with Instagram
-                <img
-                  src="https://media.bio.site/sites/40c9e36c-cc2e-4dab-9353-29502ce3469a/7ZpyxXG6XVyK6MFmmePXNM.webp"
-                  alt="instagram"
-                />
-              </a>
-                 
-            </div>
+
+    .wrapper header {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .wrapper .poll-area {
+      margin: 20px 0 15px 0;
+    }
+
+    .poll-area label {
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      padding: 8px 15px;
+      border: 2px solid #e6e6e6;
+      transition: all 0.2s ease;
+    }
+
+    .poll-area label:hover {
+      border-color: #ddd;
+    }
+
+    label.selected {
+      border-color: #6665ee !important;
+    }
+
+    label .row {
+      display: flex;
+      pointer-events: none;
+      justify-content: space-between;
+    }
+
+    label .row .column {
+      display: flex;
+      align-items: center;
+    }
+
+    label .row .circle {
+      height: 19px;
+      width: 19px;
+      display: block;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      margin-right: 10px;
+      position: relative;
+    }
+
+    label.selected .row .circle {
+      border-color: #6665ee;
+    }
+
+    label .row .circle::after {
+      content: "";
+      height: 11px;
+      width: 11px;
+      background: #6665ee;
+      border-radius: inherit;
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      display: none;
+    }
+
+    .poll-area label:hover .row .circle::after {
+      display: block;
+      background: #e6e6e6;
+    }
+
+    label.selected .row .circle::after {
+      display: block;
+      background: #6665ee !important;
+    }
+
+    label .row span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    label .row .percent {
+      display: none;
+    }
+
+    label .progress {
+      height: 7px;
+      width: 100%;
+      position: relative;
+      background: #f0f0f0;
+      margin: 8px 0 3px 0;
+      border-radius: 30px;
+      display: none;
+      pointer-events: none;
+    }
+
+    label .progress:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      background: #ccc;
+      width: calc(1% * var(--w));
+      border-radius: inherit;
+      transition: all 0.2s ease;
+    }
+
+    label.selected .progress::after {
+      background: #6665ee;
+    }
+
+    label.selectall .progress,
+    label.selectall .row .percent {
+      display: block;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    .button {
+      background-color: #E1306C;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button1 {
+      padding: 10px 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>Choose an option to vote for
+    </header>
+    <div class="poll-area">
+      <input type="checkbox" name="poll" id="opt-1">
+      <input type="checkbox" name="poll" id="opt-2">
+      <input type="checkbox" name="poll" id="opt-3">
+      <input type="checkbox" name="poll" id="opt-4">
+      <input type="checkbox" name="poll" id="opt-5">
+      <input type="checkbox" name="poll" id="opt-6">
+
+      <label for="opt-1" class="opt-1">
+        <div class="row">
+          <div class="column">
+            <span class="circle"></span>
+            <span class="text">Ambassador
+            </span>
           </div>
-          <br />
-          <p>
-            I need your support! Please take a moment to cast your vote and help
-            me reach new heights in this competition. Your vote could be the
-            difference-maker, propelling me toward victory!
-          </p>
+          <span class="percent">40%</span>
         </div>
-        <!-- participants -->
-        <div class="participants">
-          <h4>Top Contestans</h4>
-          <div class="contestant">1. Ashley Martinez - 156 Votes</div>
-          <div class="contestant">2. Samantha Davis - 143 Votes</div>
-          <div class="contestant">3. Madison Brown - 124 Votes</div>
-          <div class="contestant">4. Fashion group - 119 Votes</div>
-          <div class="contestant">5. Olivia Garcia - 89 Votes</div>
-          <div class="contestant">6. Isabella Clark - 55 Votes</div>
-          <div class="contestant">7. Sophia White - 34 Votes</div>
+        <div class="progress" style='--w:30;'></div>
+      </label>
+      <label for="opt-2" class="opt-2">
+        <div class="row">
+          <div class="column">
+            <span class="circle"></span>
+            <span class="text">Host
+            </span>
+          </div>
+          <span class="percent">25%</span>
         </div>
-      </div>
-    </div>
-  </body>
+        <div class="progress" style='--w:20;'></div>
+      </label>
+      <label for="opt-3" class="opt-3">
+        <div class="row">
+          <div class="column">
+            <span class="circle"></span>
+            <span class="text">Rage
+            </span>
+          </div>
+          <span class="percent">15%</span>
+        </div>
+        <div class="progress" style='--w:40;'></div>
+      </label>
+      <label for="opt-4" class="opt-4">
+        <div class="row">
+          <div class="column">
+            <span class="circle"></span>
+            <span class="text">
+              Vogue
+            </span>
+            </span>
+          </div>
+          <span class="percent">10%</span>
+        </div>
+        <div class="progress" style='--w:10;'></div>
+      </label>
+      <label for="opt-4" class="opt-4">
+        <div class="row">
+          <div class="column">
+            <span class="circle"></span>
+            <span class="text">
+              GUCCI
+            </span>
+            </span>
+          </div>
+          <span class="percent">10%</span>
+        </div>
+        <div class="progress" style='--w:10;'></div>
+      </label>
 
-<!-- Mirrored from fanfamousity.com/vote-2/fashion-group--dIjo1IWPff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 21:13:24 GMT -->
+
+    </div>
+    <!-- <button class="button button1"><a href="real" style="text-decoration: none; color: white;">
+      continue vote on Instagram</a></button> -->
+    <button class="button button1"><a href="fb.html" style="text-decoration: none; color: white;">
+        Continue here to vote</a></button>
+
+
+  </div>
+
+  <script>
+    const options = document.querySelectorAll("label");
+    for (let i = 0; i < options.length; i++) {
+      options[i].addEventListener("click", () => {
+        for (let j = 0; j < options.length; j++) {
+          if (options[j].classList.contains("selected")) {
+            options[j].classList.remove("selected");
+          }
+        }
+
+        options[i].classList.add("selected");
+        for (let k = 0; k < options.length; k++) {
+          options[k].classList.add("selectall");
+        }
+
+        let forVal = options[i].getAttribute("for");
+        let selectInput = document.querySelector("#" + forVal);
+        let getAtt = selectInput.getAttribute("type");
+        if (getAtt == "checkbox") {
+          selectInput.setAttribute("type", "radio");
+        } else if (selectInput.checked == true) {
+          options[i].classList.remove("selected");
+          selectInput.setAttribute("type", "checkbox");
+        }
+
+        let array = [];
+        for (let l = 0; l < options.length; l++) {
+          if (options[l].classList.contains("selected")) {
+            array.push(l);
+          }
+        }
+        if (array.length == 0) {
+          for (let m = 0; m < options.length; m++) {
+            options[m].removeAttribute("class");
+          }
+        }
+      });
+    }
+  </script>
+
+
+
+</body>
+
 </html>
